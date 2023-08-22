@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "age-calculator"
+version = "0.1.0"
+description = " you'll enter your birthday's date and the program will calculate your age"
+authors = ["Renato Noronha <132279548+renatonoronha@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "age_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+cx-freeze = "^6.15.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
